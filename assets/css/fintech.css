@@ -1,0 +1,140 @@
+:root {
+  --primary-100: #23B0CF;
+  --primary-200: #88D3E3;
+  --primary-300: #000;
+  --primary-400: #C4C4C4;
+}
+
+nav {
+  background-color: var(--primary-100);
+}
+
+.bg-blue-css {
+  background-color: var(--primary-100);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bg-blue-css a {
+  color: var(--primary-300);
+}
+.section-login {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 0;
+  margin: 0;
+}
+.login {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.img-perfil-base{
+  height: 100px;
+  width: 100px;
+  
+  border-radius: 50%;
+}
+form {
+  width: 80%;
+}
+.email-senha {
+  display: flex;
+  flex-direction: column;
+
+}
+.email-senha input,
+.email-senha label {
+  border: transparent;
+  margin-bottom: 10px;
+
+  width: 100%;
+}
+.email-senha input {
+  height: 30px;
+  background-color: var(--primary-100);
+
+  font-size: 18px;
+  font-family: Verdana, sans-serif;
+  color: var(--primary-300);
+}
+.email-senha label {
+  font-size: 25px;
+}
+.opcoes {
+  display: flex;
+  justify-content: space-between;
+
+}
+.opcoes a {
+  color: var(--primary-300);
+  font-size: 14px;
+}
+.btn {
+  margin: 10px;
+}
+.btn img {
+  height: 50px;
+  width: 50px;
+}
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-entrar {
+  border: transparent;
+  background-color: var(--primary-100);
+
+  font-size: 25px;
+  height: auto;
+  width: auto;
+}
+.botoes span {
+  font-size: 25px;
+}
+.login-alternativo {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/**
+HOME 
+**/
+.dashboard-saldo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.dashboard-saldo h1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.saldo-container{
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-200);
+  padding: 10px;
+}
+.saldo-container h2,
+.col h2 {
+  margin: 0;
+}
+.col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-400);
+  padding: 10px;
+  margin: 5px;
+}
